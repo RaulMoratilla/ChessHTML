@@ -48,6 +48,10 @@ body {
     aspect-ratio: 1;
     border: 1px solid #000;
     background-size: 100%;
+    pointer-events: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .white-cell {
@@ -63,77 +67,6 @@ body {
     cursor: grab;
     width: 100%;
     height: auto;
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0);
-}
-
-.w_pawn {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -500% 0;
-}
-
-.w_rook {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -400% 0;
-}
-
-.w_horse {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -300% 0;
-}
-
-.w_bishop {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -200% 0;
-}
-
-.w_queen {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -100% 0;
-}
-
-.w_king {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: 0 0;
-}
-
-.b_pawn {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -500% -100%;
-}
-
-.b_rook {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -400% -100%;
-}
-
-.b_horse {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -300% -100%;
-}
-
-.b_bishop {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -200% -100%;
-}
-
-.b_queen {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: -100% -100%;
-}
-
-.b_king {
-    background-image: url('img/pieces.png');
-    background-size: 600%;
-    background-position: 0 -100%;
 }
